@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "name": "JAVASCRIPT",
+      "logo": "src/assets/javaScript.jpeg"
+    },
+    {
+      "id": "1",
+      "name": "REACT",
+      "logo": "src/assets/react-logo.png"
+    },
+    {
+      "id": "3",
+      "name": "REDUX",
+      "logo": "src/assets/redux-logo.png"
+    },
+    {
+      "id": "4",
+      "name": "NODE",
+      "logo": "src/assets/node-logo.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "VSCODE",
+      "logo": "src/assets/vscode-logo.png"
+    },
+    {
+      "id": "6",
+      "name": "FIGMA",
+      "logo": "src/assets/figma-logo.jpeg"
+    }
+  ]
+}

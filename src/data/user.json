@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "id": "1",
+      " name": "almila",
+      " twitter": "https://twitter.com",
+      "email": "almilasucode@gmail.com",
+      "codepen": "https://codepen.io",
+      "instagram": "https://instagram.com",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "birthDate": "24.03.1996",
+      "birthPlace": "Ankara",
+      "education": "Hacettepe Ünv.  Biyoloji Lisans, 2016",
+      "role": "Frontend,UI"
+    }
+  ]
+}
