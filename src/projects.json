@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Lorem Ipsum Web App",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique dolor libero, ac facilisis lorem suscipit eget. Ut vel arcu id urna facilisis condimentum.",
+      "tags": ["React", "Tailwind CSS", "API", "Responsive"],
+      "picture": "https://i.pinimg.com/736x/e9/3d/95/e93d953578f86fa3ad97a7d20cf04ed0.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dolor Sit Amet Project",
+      "text": "Curabitur vehicula, metus a tincidunt malesuada, neque lorem malesuada velit, sed malesuada sapien risus id ligula. Phasellus sit amet odio nec magna venenatis dictum.",
+      "tags": ["JavaScript", "Node.js", "Express", "MongoDB"],
+      "picture": "https://i.pinimg.com/736x/e9/f3/ac/e9f3ac76aca422345f5463b27714a5c3.jpg"
+    }
+  ]
+}

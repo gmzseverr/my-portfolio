@@ -7,7 +7,7 @@ function Projects() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/src/data/projects.json");
+        const response = await axios.get("src/projects.json");
         setProjects(response.data.projects);
       } catch (error) {
         console.error("Error fetching data:", error);

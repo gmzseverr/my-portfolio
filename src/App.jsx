@@ -8,15 +8,26 @@ import Skills from "./components/Skills";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
+  const [isTurkish, setIsTurkish] = useState(false);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
 
+  const toggleLanguage = () => {
+    setIsTurkish(!isTurkish);
+  };
+
   return (
     <div className={darkMode ? "dark" : "light"}>
-      <Header isDarkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero />
+      <Header
+        isDarkMode={darkMode}
+        toggleDarkMode={toggleDarkMode}
+        isTurkish={isTurkish}
+        toggleLanguage={toggleLanguage}
+      />
+
+      <Hero isTurkish={isTurkish} />
       <Skills />
       <Profile />
       <Projects />
