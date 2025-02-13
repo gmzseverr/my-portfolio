@@ -54,7 +54,7 @@ function Hero({ isTurkish }) {
 
         <div className="flex-shrink-0 mt-6 md:mt-0 shadow-xl">
           <img
-            src="public/b04fd1fa29a883e2f4b8b8577a5c82eb.png"
+            src="./b04fd1fa29a883e2f4b8b8577a5c82eb.png"
             alt="Hero"
             className="w-[20rem] h-[22rem] rounded-2xl object-cover"
           />
