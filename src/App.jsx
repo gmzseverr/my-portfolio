@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -10,13 +11,8 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [isTurkish, setIsTurkish] = useState(false);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
-
-  const toggleLanguage = () => {
-    setIsTurkish(!isTurkish);
-  };
+  const toggleDarkMode = () => setDarkMode(!darkMode);
+  const toggleLanguage = () => setIsTurkish(!isTurkish);
 
   return (
     <div className={darkMode ? "dark" : "light"}>
@@ -27,10 +23,20 @@ export default function App() {
         toggleLanguage={toggleLanguage}
       />
 
-      <Hero isTurkish={isTurkish} />
-      <Skills />
-      <Profile />
-      <Projects />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero isTurkish={isTurkish} />
+              <Skills />
+              <Profile />
+              <Projects />
+            </>
+          }
+        />
+      </Routes>
+
       <Footer />
     </div>
   );
